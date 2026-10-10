@@ -4,7 +4,8 @@ A simulated school network I designed and configured in Cisco Packet Tracer. It 
 
 ## Topology
 
-![Topology](topology.png)
+<img width="953" height="692" alt="topology png" src="https://github.com/user-attachments/assets/2a415a41-1092-48bc-9594-a90d82e4de45" />
+
 
 The network has one router connecting four subnets, with 9 switches and a wireless access point. In total there are 26 end devices and servers: 15 PCs, 5 laptops, 2 printers, 1 VoIP phone and 3 servers.
 
@@ -31,14 +32,7 @@ The network 192.16.66.0 is split into four subnets, each using the mask 255.255.
 - How a default gateway lets devices in one subnet reach another through the router
 - How DNS turns domain names into IP addresses
 - How web and email servers fit into a network
-- How to plan and document an addressing scheme
 
-## Possible improvements
-
-- Use private address ranges (such as 192.168.x.x) rather than 192.16.x.x
-- Size each subnet to its department using variable-length subnet masks
-- Add DHCP so devices receive addresses automatically
-- Add VLANs and access control lists to restrict traffic between groups
 
 ## Files
 
